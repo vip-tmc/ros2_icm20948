@@ -7,6 +7,11 @@
   <maintainer email="simon-pierre.deschenes.1@ulaval.ca">Simon-Pierre Deschênes</maintainer>
   <license>BSD-2.0</license>
 
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
 

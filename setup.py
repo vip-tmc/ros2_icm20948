@@ -23,6 +23,7 @@ setup(
     maintainer_email="simon-pierre.deschenes.1@ulaval.ca",
     description="Driver for the ICM-20948 IMU",
     license="BSD-2.0",
+    tests_require=['pytest'],
     entry_points={
         "console_scripts": [
             "icm20948_node = ros2_icm20948.icm20948_node:main",
